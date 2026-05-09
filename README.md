@@ -1,16 +1,47 @@
-# React + Vite
+🏏 IPL Quiz App
+A fun and interactive IPL (Indian Premier League) quiz application built with React and Vite. Test your cricket knowledge with questions on IPL teams, players, and statistics — all against the clock!
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🌐 Live Demo
+https://ipl-quiz-two.vercel.app/
 
-Currently, two official plugins are available:
+✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+🔢 Multiple Choice Questions — Select the correct answer from four options
+⏱️ Timer — Race against the clock to answer before time runs out
+🧢 Team-Based Questions — Questions covering all IPL franchises
+📊 Player Statistics Questions — Test your knowledge of IPL player records and stats
 
-## React Compiler
+🎮 How It Works
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🏁  Start the Quiz
+       ↓
+📖  Read the question carefully
+       ↓
+⏳  Timer is ticking — don't overthink it!
+       ↓
+✅  Lock in your answer
+       ↓
+🏆  See your score — share it, brag about it
 
-## Expanding the ESLint configuration
+🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+⚛️  React 19          →  Component-based UI with the latest React
+⚡  Vite 8            →  Blazing fast dev server & build tool
+🟨  JavaScript (JSX)  →  Core logic and interactivity
+🚀  Vercel            →  Zero-config deployment, live in seconds
+
+📁 Project Structure
+
+ipl-quiz/
+│
+├── 📂 public/               # Static assets
+├── 📂 src/
+│   ├── 📂 components/       # Quiz UI components
+│   ├── 📄 App.jsx           # Root component
+│   └── 📄 main.jsx          # Entry point
+│
+├── 📄 index.html            # HTML shell
+├── 📄 vite.config.js        # Vite config 
+└── 📄 package.json          # Scripts & dependencies
+
+
